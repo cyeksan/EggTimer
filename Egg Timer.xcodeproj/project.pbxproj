@@ -11,8 +11,11 @@
 		8729CFFE2A82EBFC00808F2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8729CFFD2A82EBFC00808F2A /* SceneDelegate.swift */; };
 		8729D0002A82EBFC00808F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8729CFFF2A82EBFC00808F2A /* ViewController.swift */; };
 		8729D0032A82EBFC00808F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8729D0012A82EBFC00808F2A /* Main.storyboard */; };
-		8729D0052A82EBFE00808F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8729D0042A82EBFE00808F2A /* Assets.xcassets */; };
 		8729D0082A82EBFE00808F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8729D0062A82EBFE00808F2A /* LaunchScreen.storyboard */; };
+		8729D0102A82ED8800808F2A /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8729D00F2A82ED8800808F2A /* alarm_sound.mp3 */; };
+		8729D0142A82EDF300808F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8729D0132A82EDF300808F2A /* Assets.xcassets */; };
+		8733CECF2A887B6800255170 /* gitignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8733CECE2A887B6800255170 /* gitignore.txt */; };
+		87ABD28C2A86621B001A4E9E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87ABD28B2A86621B001A4E9E /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +24,12 @@
 		8729CFFD2A82EBFC00808F2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8729CFFF2A82EBFC00808F2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8729D0022A82EBFC00808F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8729D0042A82EBFE00808F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8729D0072A82EBFE00808F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8729D0092A82EBFE00808F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8729D00F2A82ED8800808F2A /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		8729D0132A82EDF300808F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8733CECE2A887B6800255170 /* gitignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitignore.txt; sourceTree = "<group>"; };
+		87ABD28B2A86621B001A4E9E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		8729CFEF2A82EBFC00808F2A = {
 			isa = PBXGroup;
 			children = (
+				8733CECE2A887B6800255170 /* gitignore.txt */,
 				8729CFFA2A82EBFC00808F2A /* Egg Timer */,
 				8729CFF92A82EBFC00808F2A /* Products */,
 			);
@@ -56,11 +63,13 @@
 		8729CFFA2A82EBFC00808F2A /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				8729D0132A82EDF300808F2A /* Assets.xcassets */,
+				8729D00F2A82ED8800808F2A /* alarm_sound.mp3 */,
 				8729CFFB2A82EBFC00808F2A /* AppDelegate.swift */,
 				8729CFFD2A82EBFC00808F2A /* SceneDelegate.swift */,
 				8729CFFF2A82EBFC00808F2A /* ViewController.swift */,
+				87ABD28B2A86621B001A4E9E /* Colors.xcassets */,
 				8729D0012A82EBFC00808F2A /* Main.storyboard */,
-				8729D0042A82EBFE00808F2A /* Assets.xcassets */,
 				8729D0062A82EBFE00808F2A /* LaunchScreen.storyboard */,
 				8729D0092A82EBFE00808F2A /* Info.plist */,
 			);
@@ -125,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87ABD28C2A86621B001A4E9E /* Colors.xcassets in Resources */,
 				8729D0082A82EBFE00808F2A /* LaunchScreen.storyboard in Resources */,
-				8729D0052A82EBFE00808F2A /* Assets.xcassets in Resources */,
+				8729D0102A82ED8800808F2A /* alarm_sound.mp3 in Resources */,
+				8729D0142A82EDF300808F2A /* Assets.xcassets in Resources */,
 				8729D0032A82EBFC00808F2A /* Main.storyboard in Resources */,
+				8733CECF2A887B6800255170 /* gitignore.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
