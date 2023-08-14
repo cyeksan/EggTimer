@@ -1,6 +1,6 @@
 # EggTimer
 
-A Swift app for cooking eggs according to the desired hardness level 🤓
+A Swift app for cooking eggs according to the desired hardness level 🤓 
 
 (For demonstration of the progress of the progress bar, cooking time in minutes has been replaced by seconds).
 
